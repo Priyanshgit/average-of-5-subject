@@ -9,7 +9,7 @@ int main()
     printf("Enter marks of five subjects: \n");
     scanf("%f%f%f%f%f", &English, &Physics, &Chemistry, &Math, &CS);
 
-    /* Calculate total, average and percentage */
+    /* Calculate sum, average */
     sum = English +Physics +Chemistry+Math+CS;
     avg = sum/ 5.0;
     /* Print all results */
